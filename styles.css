@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #b0b2d4, #a4a8d1, #979fcd, #8a96ca, #7c8dc7);
+}
+
+.quiz{
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(to right top, #b0b2d4, #9296de, #7279e6, #4e5beb, #073bed);
+}
+
+.mainBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer{
+    margin: 15px 0 10px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.quiz h1{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.queans{
+    width: 100%;
+    margin: 3px;
+    padding: 20px 0;
+    display: none;
+}
+
+.quiz .question{
+    font-size: 23px;
+    font-weight: 600;
+    margin: 15px 0;
+    color: #001e4d;
+}
+
+.btn{
+    background-color: #fff;
+    color: #222;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    display: -webkit-inline-box;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover:not([disabled]){
+    background-color: #222; 
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+.lastBtn{
+    width: 20%;
+    margin: 10px;
+    padding: 10px 14px;
+    left: 35%;
+    position: relative;
+    font-size: 15px;
+    background-color: #001e4d;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    display: none;
+}
+
+.startBtn{
+    width: 20%;
+    margin: 10px;
+    padding: 10px 14px;
+    left: 35%;
+    position: relative;
+    font-size: 15px;
+    background-color: #001e4d;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.correct{
+    background: rgb(127, 220, 127);
+}
+
+.wrong{
+    background: rgb(234, 62, 62);
+}
